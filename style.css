@@ -7,6 +7,45 @@
 
 }
 
-#odin {
-    font-family: 'norse-bold-webfont', sans-serif;
+*, *::after, *::before {
+    box-sizing: border-box;
 }
+
+body {
+    font-family:'Helvetica', sans-serif;
+    display: flex;
+}
+
+.left-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-section,
+.logo-placeholder {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bg-image {
+    background-image: url(./pictures/Runes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+
+.logo-placeholder{
+    font-family: 'norse-bold-webfont';
+    font-size: xx-large;
+    color: azure;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 15vh;
+    gap: 1vw;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
