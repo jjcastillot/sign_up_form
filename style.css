@@ -1,1 +1,12 @@
+@font-face {
+    font-family: 'norse-bold-webfont';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+#odin {
+    font-family: 'norse-bold-webfont', sans-serif;
+}
