@@ -19,6 +19,7 @@
 .content {
     width: 100vw;
     height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content,
@@ -31,9 +32,9 @@
 /* left side */
 
 .picture{
-    background-image: url(./space-g1e38f8dc5_1920.jpg);
+    background-image: url(./pictures/Runes.jpg);
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
 }
@@ -53,6 +54,8 @@
 
 .odin {
     height: 10vh;
+    font-family: 'norse-bold-webfont', Arial;
+    color: var(--background-color);
 }
 
 
