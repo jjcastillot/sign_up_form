@@ -16,44 +16,44 @@
     --background-color: white;
 }
 
-body {
-    font-family:'Helvetica', sans-serif;
-    display: flex;
-}
-
-.left-section {
+.content {
     width: 100vw;
     height: 100vh;
 }
 
-.left-section,
-.logo-placeholder {
+.content,
+.logo{
     display: flex;
     flex-flow: row wrap;
 }
 
-.bg-image {
-    background-image: url(./pictures/Runes.jpg);
+
+/* left side */
+
+.picture{
+    background-image: url(./space-g1e38f8dc5_1920.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
-    width: 30vw;
+    width: 40vw;
 }
 
-.logo-placeholder{
-    font-family: 'norse-bold-webfont';
-    font-size: xx-large;
-    color: azure;
+
+.logo{
     height: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
-    top: 15vh;
+    top: 20vh;
     gap: 1vw;
-    padding: 10px 0;
+    padding: 15px 0;
+
     justify-content: center;
     align-items: center;
 }
 
+.odin {
+    height: 10vh;
+}
 
 
 .right{
